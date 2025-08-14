@@ -1,9 +1,5 @@
-/* @import: incorporamos diretamente em nosso css. O navegador nao reage bem como essa forma de*/
 
-/* Reset de estilos */
-/* Configuração que remove todos os estilos padrões aplicados pelo navegador. */
 * {
-    /* Fallbak: caso a fonte lexend nao carregue, ele usa a fonte reserva padrão que é a sans-serif.  */
     font-family: "Lexend", sans-serif;
     box-sizing: border-box;
     margin: 0px;
@@ -65,6 +61,7 @@ header h1 {
 
     &:hover {
         background-color: #353535;
+        color: white;
     }
 }
 
@@ -137,7 +134,7 @@ header h1 {
 main {
     flex: 1;
     max-width: 750px;
-    max-height: 800px;
+    max-height: 870px;
     margin: 30px auto;
     padding: 30px;
     border-radius: 10px;
@@ -236,7 +233,7 @@ button {
     cursor: pointer;
 
     &:hover {
-        background-color: #000000;
+        background-color: #1a1a1a;
 
     }
 }
@@ -291,20 +288,3 @@ figure {
         border: 2px solid #000000;
     }
 }
-
-/* Impede que aimgame ultrapase a largura do conteiner. ela nunca via sernmaior que o elemeto pai. */
-/* max-width: 100%;
-    width: 30px; */
-
-/* @media screen and (max-width: 375px) {
-    header {
-        display: flex;
-        flex-direction: column;  
-        height: 150px;
-    }
-    .nav-header {
-        display: flex;
-        flex-direction: column;
-        
-    }
-} */
