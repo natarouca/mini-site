@@ -133,7 +133,7 @@ header h1 {
     }
 }
 
-/* Revisar esse trecho de código */
+
 main {
     flex: 1;
     max-width: 1200px;
@@ -142,24 +142,19 @@ main {
     border-radius: 10px;
 }
 
-/* Revisar esse trecho de código */
+
 .main-content-home {
     margin: 60px auto;
     width: 100%;
     max-width: 1200px;
-    /* Precisa de ajuste */
-    /* padding: 20px;
-    background-color: #fcf6a8;
-    border: 1px solid #000000;
-    border-radius: 10px; */
+
 }
 
 .home-section {
-    /* Precisa de ajuste */
     color: #141414;
     font-size: 18px;
-    width: 900px; 
     /* O px é um valor fixo, imutável. */
+    width: 900px; 
     max-width: 100%;
     padding: 20px;
     background-color: #fcf6a8;
@@ -261,7 +256,6 @@ footer {
     justify-content: space-evenly;
     background-color: #f5f5f5;
     margin-top: 50px;
-    /* height: 50px; */
     border-radius: 5px 5px 0px 0px;
     padding: 30px;
 
