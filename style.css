@@ -1,16 +1,20 @@
 * {
     font-family: "Lexend", sans-serif;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     outline: none;
+    text-decoration: none;
+    border: transparent;
+    list-style: none;
 }
 
 body {
-    background-color: #ffffff;
-    height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
+    color: #ffffff;
+    height: 100vh;
 }
 
 header {
@@ -19,7 +23,6 @@ header {
     justify-content: space-evenly;
 
     position: sticky;
-    top: 20px;
     height: 60px;
 
     /* Professor, o meu header estava "pulando" toda vez que eu navegava em outras páginas além da home. Depois percebi que não havia colocado um padding, e a partir disso problema foi resolvido, mas não entendi bem o que aconteceu. :( */
@@ -50,7 +53,6 @@ header h1 {
 
 .ul-header li:nth-child(2) {
     background-color: #252525;
-    ;
     padding: 10px 25px 10px;
     border-radius: 20px;
     border: 1px solid #181818;
@@ -154,7 +156,7 @@ main {
     color: #141414;
     font-size: 18px;
     /* O px é um valor fixo, imutável. */
-    width: 900px; 
+    width: 900px;
     max-width: 100%;
     padding: 20px;
     background-color: #fcf6a8;
@@ -299,3 +301,16 @@ figure {
         border: 2px solid #000000;
     }
 }
+
+/* 
+se a condição for verdadeira ele aplica as estilizações
+and é uma porta-lógica
+exige que a condifção; seja verdadeira qnd pro screen qnt par4a o min-width ou max-width
+@media (condição) {
+configruação do css, com seletore e atribuições valores  propriedades.
+  seletor {
+    propriedade: valor;
+    }
+} * /
+
+
